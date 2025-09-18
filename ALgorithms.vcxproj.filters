@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\GitHub\introduction-to-arrays-and-memory-management-KonstaKK\arrays_first_example.cpp">
+    <ClCompile Include="Recursion\recursion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

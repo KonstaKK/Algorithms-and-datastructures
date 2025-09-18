@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\arrays_first_example.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:arrays_first_example.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\Recursion\\recursion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:Recursion\\recursion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "arrays_first_example.cpp",
-              "DocumentMoniker": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\arrays_first_example.cpp",
-              "RelativeDocumentMoniker": "arrays_first_example.cpp",
-              "ToolTip": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\arrays_first_example.cpp",
-              "RelativeToolTip": "arrays_first_example.cpp",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "recursion.cpp",
+              "DocumentMoniker": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\Recursion\\recursion.cpp",
+              "RelativeDocumentMoniker": "Recursion\\recursion.cpp",
+              "ToolTip": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\Recursion\\recursion.cpp",
+              "RelativeToolTip": "Recursion\\recursion.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-18T05:43:16.71Z",
+              "WhenOpened": "2025-09-18T07:33:35.051Z",
               "EditorCaption": ""
             }
           ]
