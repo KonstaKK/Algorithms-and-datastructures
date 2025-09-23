@@ -1,13 +1,7 @@
 #include <iostream>
 #include <iomanip>
 
-int fib_recursive(int n) {
-	if (n <= 1) {
-		return 1;
-	}
-	return fib_recursive(n - 1) + fib_recursive(n - 2);
-}
-
+// Programming task 3.1.	first solution
 long long fib_iter_array(int n) {
 	long long* array = new long long[n + 1];
 	array[0] = 1;
@@ -15,7 +9,7 @@ long long fib_iter_array(int n) {
 
 	for (int i = 2; i < n + 1; i++) {
 		array[i] = array[i - 1] + array[i - 2];
-		//std::cout << "array index " << i << " is " << array[i] << std::endl;
+		std::cout << "array index " << i << " is " << array[i] << std::endl;
 	}
 
 	long long result = array[n];
@@ -24,12 +18,47 @@ long long fib_iter_array(int n) {
 	return result;
 }
 
+// Programming task 3.1.	optimized solution
+int fib_recursive(int n) {
+	if (n <= 1) {
+		return 1;
+	}
+	return fib_recursive(n - 1) + fib_recursive(n - 2);
+}
+
+// Programming task 3.2.
+int ackerman_function(int m, int n) {
+	std::cout << "A(" << m << ", " << n << ")";
+
+	if (m == 0 && n > 0) {
+		std::cout << " = " << (n + 1) << std::endl;
+		return (n + 1);
+	}
+	else if (m > 0 && n == 0) {
+		std::cout << " = A(" << (m - 1) << ", " << 1 << ")" << std::endl;
+		ackerman_function((m - 1), 1);
+	}
+	else if (m > 0 && n > 0) {
+		std::cout << " = A(" << (m - 1) << ", A(" << m << ", " << (n - 1) << "))" << std::endl;
+		ackerman_function((m - 1), ackerman_function(m, (n - 1)));
+	}
+}
+
 int main() {
-	int n = 400;
+	int x = 8;
 
 	//long long fib = fib_recursive(n);
 
-	std::cout << "Fibonacci number f(" << n << ") = " << fib_iter_array(n) << std::endl;
+	std::cout << "Fibonacci number f(" << x << ") = " << fib_iter_array(x) << std::endl;
+	std::cout << std::endl;
+
+	std::cout << "Fibonacci number f(" << x << ") = " << fib_recursive(x) << std::endl;
+	std::cout << std::endl;
+
+	int m = 2;
+	int n = 2;
+
+	std::cout << "Ackermann function f(" << m << ", " << n << ") = " << ackerman_function(2, 2) << std::endl;
 
 	return EXIT_SUCCESS;
 }

@@ -1,0 +1,3 @@
+The text file "manual tasks" contains the calculations for the manual tasks.
+The cpp file "recursion" contains the functions for programming tasks.
+Each cpp function has a comment above them telling which task and solution it is used for.
