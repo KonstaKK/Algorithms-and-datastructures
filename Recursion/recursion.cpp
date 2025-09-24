@@ -28,18 +28,18 @@ int fib_recursive(int n) {
 
 // Programming task 3.2.
 int ackerman_function(int m, int n) {
-	std::cout << "A(" << m << ", " << n << ")";
+	//std::cout << "A(" << m << ", " << n << ")";
 
 	if (m == 0 && n > 0) {
-		std::cout << " = " << (n + 1) << std::endl;
+		//std::cout << " = " << (n + 1) << std::endl;
 		return (n + 1);
 	}
 	else if (m > 0 && n == 0) {
-		std::cout << " = A(" << (m - 1) << ", " << 1 << ")" << std::endl;
+		//std::cout << " = A(" << (m - 1) << ", " << 1 << ")" << std::endl;
 		ackerman_function((m - 1), 1);
 	}
 	else if (m > 0 && n > 0) {
-		std::cout << " = A(" << (m - 1) << ", A(" << m << ", " << (n - 1) << "))" << std::endl;
+		//std::cout << " = A(" << (m - 1) << ", A(" << m << ", " << (n - 1) << "))" << std::endl;
 		ackerman_function((m - 1), ackerman_function(m, (n - 1)));
 	}
 }
@@ -58,7 +58,17 @@ int main() {
 	int m = 2;
 	int n = 2;
 
-	std::cout << "Ackermann function f(" << m << ", " << n << ") = " << ackerman_function(2, 2) << std::endl;
+	std::cout << "Ackermann function f(2, 2) = " << ackerman_function(m, n) << std::endl;
+
+	int max = 2011;
+	for (m = 2; m <= max; m++) {
+		for (n = 2; n <= max; n++) {
+			std::cout << "Ackermann function f(" << m << ", " << n << ") = " << ackerman_function(m, n) << std::endl;
+		}
+	}
+	// The highest reasonable value for m is 3
+	// When m is 2, the highest value for n is ~2011
+	// When m is 3, the highest value for n is 8
 
 	return EXIT_SUCCESS;
 }
