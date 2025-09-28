@@ -1,0 +1,74 @@
+4.1.
+
+Sort in ascending order:
+f(n) = n => 1
+
+f(n) = √n = n^0.5 => 1/(2√n)
+
+f(n) = n^2 => 2n => 2
+
+f(n) = n*log(n) => (ln(n)+1)/ln(10)
+
+f(n) = 5/n => -(5/x^2)
+
+f(n) = 10 => 1
+
+f(n) = n^2*log(n) => (2n*ln(n)+n)/ln(10)
+
+f(n) = n^3 => 3n^2 => 6n => 6
+
+f(n) = 2^n => ln(2)*2^n
+
+f(n) = n*log^2(n) = n*(log(n))^2 => (ln(x)*(ln(x)+2))/(ln(10))^2
+
+The ascending order (top to bottom):
+f(n) = 10
+
+f(n) = 5/n
+
+f(n) = √n
+
+f(n) = n
+
+f(n) = n^2
+
+f(n) = n^3
+
+f(n) = 2^n
+
+f(n) = n^2*log(n)
+
+f(n) = n*log^2(n)
+
+f(n) = n*log(n)
+
+
+4.2.
+
+0.5ms	n = 100
+
+a) Linear = 50ms
+
+=> 100/0.5ms = 10000/x
+100x = 0.5ms * 10000
+100x = 5000ms
+x = 50ms
+
+b) O(n*log(n)) = 200ms
+
+=> O(100) = 100*log(100) = 100*2 = 200
+O(10000) = 10000*log(10000) 10000*4 = 40000
+
+O(100*log(100)) = 0.5ms => O(200) = 0.5ms
+
+200/0.5ms = 40000/x
+200x = 0.5ms * 40000
+200x = 20000ms
+x = 200ms
+
+c) Quadratic = 1ms
+
+=> f(n) = n^2
+T(n) = cf(n) = c*n^2 = c*100^2 = c*10000
+
+d) Cubic = 0.75ms
