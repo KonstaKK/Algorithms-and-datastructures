@@ -66,9 +66,42 @@ O(100*log(100)) = 0.5ms => O(200) = 0.5ms
 200x = 20000ms
 x = 200ms
 
-c) Quadratic = 1ms
+c) Quadratic (n^2) = 1ms
+
+n^2 = n*n
 
 => f(n) = n^2
 T(n) = cf(n) = c*n^2 = c*100^2 = c*10000
 
-d) Cubic = 0.75ms
+d) Cubic (n^3) = 0.75ms
+
+n^3 = n*n*n
+
+
+4.3.
+
+T(n) = O(f(n))
+
+a)
+void histImage(int [] aImage, int n, int threshold){
+  for (int i=0; i<n; i++){
+    if (aImage[i] < threshold){
+      aImage[i] = BLACK;
+    }
+    else{
+      aImage[i] = WHITE;
+    }
+  }
+}
+
+f(n) = n
+
+b)
+void simpleSort( float[] a, int n ) {
+  for ( int i = 0; i < n; ++i )
+    for ( int j = 0; j < n; ++j )
+      if ( a[j] < a[i] )
+        swap( a[j], a[i] );
+}
+
+f(n) = n^2
