@@ -19,15 +19,20 @@ void simpleSort(float* a, int n) {
     }
     auto end = std::chrono::steady_clock::now();
 
-    std::cout << "Sorting took " << std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count() << " milliseconds" << std::endl;
+    std::cout << "Sorting took ~" << std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count() << " nanoseconds" << std::endl;
     // 300000 values is already a stack overflow
-    // ~0.139 seconds for 10000 values
-    // ~12.993 seconds for 100000 values
-    // ~50.537 seconds for 200000 values
+    // Sorting took ~37200 nanoseconds for 100 values
+    // Sorting took ~1986900 nanoseconds for 1000 values
+    // Sorting took ~144075300 nanoseconds for 10000 values
+    // Sorting took ~12979807300 nanoseconds for 100000 values
+
+    // The function does not follow the O(f(n)) that was found
+    // Swapping values between each other takes its own time
+    // Thus the sorting time grows at an inconsistent pace.
 }
 
 int main() {
-    const int size = 300000;
+    const int size = 100000;
     float testArray[size];
 
     for (int i = 0; i < size; i++) {
