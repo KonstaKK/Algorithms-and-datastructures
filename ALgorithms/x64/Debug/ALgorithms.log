@@ -1,3 +1,2 @@
-﻿  analysis.cpp
-C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Analysis\analysis.cpp(35,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  ALgorithms.vcxproj -> C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\x64\Debug\ALgorithms.exe
+﻿  LinkedList.cpp
+  ALgorithms.vcxproj -> C:\Users\konsta.karttunen\Documents\GitHub\Algorithms-and-datastructures\x64\Debug\ALgorithms.exe
