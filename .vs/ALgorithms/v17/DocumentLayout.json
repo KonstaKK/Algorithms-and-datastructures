@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\",
+  "WorkspaceRootPath": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:Analysis\\analysis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "analysis.cpp",
-              "DocumentMoniker": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp",
+              "DocumentMoniker": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp",
               "RelativeDocumentMoniker": "Analysis\\analysis.cpp",
-              "ToolTip": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp",
+              "ToolTip": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp",
               "RelativeToolTip": "Analysis\\analysis.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-29T11:31:12.494Z",
               "EditorCaption": ""

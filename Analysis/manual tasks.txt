@@ -63,8 +63,8 @@ O(100*log(100)) = 0.5ms => O(200) = 0.5ms
 
 200/0.5ms = 40000/x
 200x = 0.5ms * 40000
-200x = 20000ms
-x = 200ms
+200x = 20000ms	| :200
+x = 100ms
 
 c) Quadratic (n^2) = T(n) = c*n^2 = 5000ms
 
@@ -77,7 +77,7 @@ T(10000) = c*10000^2 = c*100000000 = x
 10000x = 50000000	| :10000
 x = 5000ms
 
-d) Cubic (n^3) = T(n) = c*n^2 = 
+d) Cubic (n^3) = T(n) = c*n^2 = 500000ms
 
 T(100) = c*100^3 = c*1000000 = 0.5ms
 T(10000) = c*10000^3 = c*1000000000000 = x
@@ -105,7 +105,7 @@ void histImage(int [] aImage, int n, int threshold){
   }
 }
 
-f(n) = n
+O(n)
 
 b)
 void simpleSort( float[] a, int n ) {
@@ -115,4 +115,4 @@ void simpleSort( float[] a, int n ) {
         swap( a[j], a[i] );
 }
 
-f(n) = n^2
+O(n^2)
