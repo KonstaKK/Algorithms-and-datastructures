@@ -20,6 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ATDs\ATD.cpp" />
+    <ClCompile Include="ATDs\LinkedList.cpp" />
+    <ClCompile Include="ATDs\Node.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ATDs\LinkedList.h" />
+    <ClInclude Include="ATDs\Node.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
