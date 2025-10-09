@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\",
+  "WorkspaceRootPath": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\ATD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:ATDs\\ATD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:ATDs\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:ATDs\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\ATD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:ATDs\\ATD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Analysis\\analysis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:ATDs\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:ATDs\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\Node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\Node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:ATDs\\Node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -34,81 +34,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "analysis.cpp",
-              "DocumentMoniker": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp",
+              "DocumentMoniker": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp",
               "RelativeDocumentMoniker": "Analysis\\analysis.cpp",
-              "ToolTip": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp",
+              "ToolTip": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp",
               "RelativeToolTip": "Analysis\\analysis.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAASAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-02T08:10:39.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T09:44:24.117Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Node.h",
-              "DocumentMoniker": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\Node.h",
+              "DocumentMoniker": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\Node.h",
               "RelativeDocumentMoniker": "ATDs\\Node.h",
-              "ToolTip": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\Node.h",
+              "ToolTip": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\Node.h",
               "RelativeToolTip": "ATDs\\Node.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-02T07:48:17.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T07:48:17.707Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Node.cpp",
-              "DocumentMoniker": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\Node.cpp",
+              "DocumentMoniker": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\Node.cpp",
               "RelativeDocumentMoniker": "ATDs\\Node.cpp",
-              "ToolTip": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\Node.cpp",
+              "ToolTip": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\Node.cpp",
               "RelativeToolTip": "ATDs\\Node.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-02T07:48:21.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LinkedList.h",
-              "DocumentMoniker": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.h",
+              "DocumentMoniker": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.h",
               "RelativeDocumentMoniker": "ATDs\\LinkedList.h",
-              "ToolTip": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.h",
+              "ToolTip": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.h",
               "RelativeToolTip": "ATDs\\LinkedList.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAQAAAAAAAAAAIAwwBIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-02T07:48:16.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T07:48:16.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LinkedList.cpp",
-              "DocumentMoniker": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.cpp",
               "RelativeDocumentMoniker": "ATDs\\LinkedList.cpp",
-              "ToolTip": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.cpp",
+              "ToolTip": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.cpp",
               "RelativeToolTip": "ATDs\\LinkedList.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA+AAAA",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAwwHAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-02T07:47:02.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ATD.cpp",
-              "DocumentMoniker": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\ATD.cpp",
+              "DocumentMoniker": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\ATD.cpp",
               "RelativeDocumentMoniker": "ATDs\\ATD.cpp",
-              "ToolTip": "C:\\Users\\konsta.karttunen\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\ATD.cpp",
+              "ToolTip": "C:\\Users\\omistaja\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\ATD.cpp",
               "RelativeToolTip": "ATDs\\ATD.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "ViewState": "AgIAACoAAAAAMzMzMzMbwDUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-02T07:32:49.002Z",
               "EditorCaption": ""
