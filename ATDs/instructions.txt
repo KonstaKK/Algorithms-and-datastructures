@@ -1,0 +1,5 @@
+The text file "manual tasks" contains the calculations for manual task 5.1.
+The image file "Manual task 5 2" contains the drawings and the text for manual task 5.2.
+The cpp file "ATD" activates the functions for programming tasks.
+The header and cpp files Node and LinkedList are used in all of the programming tasks.
+LinkedList contains all of the functions needed in the tasks. Node contains the information on each node.
