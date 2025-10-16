@@ -3,7 +3,7 @@
 #include <iostream>
 #include <iomanip>
 
-int main() {
+/*int main() {
     LinkedList list;
     LinkedList listInsert;
     LinkedList listEndInsert;
@@ -56,4 +56,4 @@ int main() {
     std::cout << std::endl << "Reversed:" << std::endl;
     listEndInsert.Reverse();
     listEndInsert.Print();
-}
+}*/
