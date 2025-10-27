@@ -1,0 +1,21 @@
+6.1.
+
+STR*A*IG*H***T**FO*RW*A**RD***
+
+a letter (A-Z) = insert (push and enqueue)
+an asterisk (*) = removal (pop and dequeue)
+
+a) push push push pop push pop push push pop push pop pop pop push pop pop push push pop push pop pop push push pop pop pop
+-1
+
+b) 
+-1
+
+6.2.
+
+5 9 * 8 7 4 6 + * 2 1 3 * + * + *
+
+a) 5 9 * 8 7 4 6 + * 2 1 3 * + * + *
+= (5 * 9) 8 7 4 6 + * 2 1 3 * + * + * => 45 8 7 4 6 + * 2 1 3 * + * + *
+= 45 8 (7 * 4 + 6) 2 1 3 * + * + * => 45 8 34 2 1 3 * + * + *
+= 45 * 8 + 34 * 2 + 1 * 3 => 360 + 63 + 3 => 426
