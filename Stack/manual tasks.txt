@@ -5,12 +5,9 @@ STR*A*IG*H***T**FO*RW*A**RD***
 a letter (A-Z) = insert (push and enqueue)
 an asterisk (*) = removal (pop and dequeue)
 
-a) STRAIGHTFORWARD => RD
-push push push pop push pop push push pop push pop pop pop push pop pop push push pop push pop pop push push pop pop pop
-Output = RAGHITTSOWA
+a) Output = RAGHITTSOWARDRF
 
-b) STRAIGHTFORWARD => STRAIGHTFORWARD
-Output = STRAIGHTFORWAR
+b) Output = STRAIGHTFORWARD
 
 6.2.
 
@@ -26,4 +23,5 @@ a) 5 9 * 8 7 4 6 + * 2 1 3 * + * + *
 => 45 (8 + 350) * = 25 358 *
 => 25 * 358 = 8950
 
-b) If there is an operand to the right of 2 numbers, use the operand accordingly
+b) Push variables in the order presented
+If an operand is pushed, pop it and two numerals and use the operand accordingly
