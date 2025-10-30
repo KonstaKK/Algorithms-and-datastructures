@@ -19,15 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ATDs\LinkedList.cpp" />
-    <ClCompile Include="Stack\ATDSecond.cpp" />
-    <ClCompile Include="Stack\Node.cpp" />
-    <ClCompile Include="Stack\Stack.cpp" />
+    <ClCompile Include="Tree structures\BST.cpp" />
+    <ClCompile Include="Tree structures\Node.cpp" />
+    <ClCompile Include="Tree structures\TreeTasks.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ATDs\LinkedList.h" />
-    <ClInclude Include="Stack\Node.h" />
-    <ClInclude Include="Stack\Stack.h" />
+    <ClInclude Include="Tree structures\BST.h" />
+    <ClInclude Include="Tree structures\Node.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
