@@ -9,4 +9,3 @@ public:
 	//Constructor
 	Node(int val) : Data(val), Left(nullptr), Right(nullptr) {};
 };
-
