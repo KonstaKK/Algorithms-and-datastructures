@@ -44,4 +44,21 @@ int main() {
 	myTree.insert(21);
 
 	myTree.print(myTree.Root);
+	std::cout << std::endl;
+
+	std::cout << "The tree has: " << myTree.countNodes(myTree.Root) << " Nodes." << std::endl;
+	std::cout << std::endl;
+	std::cout << "The tree has: " << myTree.countLeaves(myTree.Root) << " Leaves." << std::endl;
+	std::cout << std::endl;
+	std::cout << "Deleting node with value 24: " << myTree.deleteNode(24) << std::endl;
+	myTree.print(myTree.Root);
+	std::cout << std::endl;
+	std::cout << "Deleting node with value 10: " << myTree.deleteNode(10) << std::endl;
+	myTree.print(myTree.Root);
+	std::cout << std::endl;
+	std::cout << "Deleting node with value 19: " << myTree.deleteNode(19) << std::endl;
+	myTree.print(myTree.Root);
+	std::cout << std::endl;
+	std::cout << "Deleting node with value 8: " << myTree.deleteNode(8) << std::endl;
+	myTree.print(myTree.Root);
 }

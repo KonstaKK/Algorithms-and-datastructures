@@ -7,6 +7,7 @@ class BST
 public:
 	Node* Root;
 
+	// 7.1.
 	BST() : Root(nullptr) {};
 
 	~BST() { Root = nullptr; }
@@ -42,7 +43,7 @@ public:
 			// create node with the new value
 			Node* newNode = new Node(value);
 			// check which child node to attach it to
-			if (value < newNode->Data) {
+			if (value < parentNode->Data) {
 				parentNode->Left = newNode;
 			}
 			else {
@@ -54,34 +55,111 @@ public:
 		//Root = insertRec(Root, value);
 	}
 
-	// Tree: 15 14 10 8 4 23 23 19 23 8 19 24 21
-	void print(Node* current, int space = 0, int indent = 4) {
+	// The tree gets printed sideways
+	// ChatGPT was used for this function
+	void print(Node* current, std::string prefix = "", bool isLeft = true) {
 		if (current == nullptr)
 			return;
 
-		// Increase distance between levels
-		space += indent;
+		if (current->Right) {
+			if (current == Root) {
+				print(current->Right, prefix + "    ", false);
+			}
+			else {
+				print(current->Right, prefix + (isLeft ? "|   " : "    "), false);
+			}
+		}
 
-		// Print right child first
-		print(current->Right, space);
+		std::cout << prefix;
+		if (current != Root) {
+			std::cout << (isLeft ? "\\" : "/");
+		}
+		std::cout << current->Data << std::endl;
 
-		// Print current node after spaces
-		std::cout << std::endl;
-		for (int i = indent; i < space; i++)
-			std::cout << " ";
-		std::cout << current->Data << "\n";
-
-		// Print left child
-		print(current->Left, space);
+		if (current->Left) {
+			print(current->Left, prefix + (isLeft ? "    " : "|   "), true);
+		}
 	}
-	// ChatGPT was used
 
-	void countNodes() {
-		//return countNodes(T.left) + countNodes(T.right) + 1;
+	int countNodes(Node* current) {
+		if (nullptr == current) {
+			return 0;
+		}
+
+		return countNodes(current->Left) + countNodes(current->Right) + 1;
 	}
 
-	void countLeaves() {
+	int countLeaves(Node* current) {
+		if (nullptr == current) {
+			return 0;
+		}
 
+		if (nullptr == current->Left && nullptr == current->Right) {
+			return 1;
+		}
+
+		return countLeaves(current->Left) + countLeaves(current->Right);
+	}
+
+	// 7.2.
+	bool deleteNode(int key) {
+		Node* currentNode = Root;	// Start at the root
+		Node* parentNode = nullptr;	// parent pointer
+
+		// Traverse the tree until current is null
+		// ==> we have found the spot
+		while (nullptr != currentNode && key != currentNode->Data) {
+			parentNode = currentNode; // Update parent
+
+			// Smaller = go left
+			if (key < currentNode->Data) {
+				currentNode = currentNode->Left;
+			}
+			// Bigger = go right
+			else if (key > currentNode->Data) {
+				currentNode = currentNode->Right;
+			}
+		}
+		// Found the spot, baby
+		// just to double check
+		if (nullptr == currentNode) {
+			std::cout << "The node was not found" << std::endl;
+			return false;
+		}
+		// Now it's deletion time
+		
+		Node* newNode;
+		// Left
+		if (currentNode->Data < parentNode->Data) {
+			if (nullptr != currentNode->Right) {
+				newNode = currentNode->Right;
+				parentNode->Left = newNode;
+				newNode->Left = currentNode->Left;
+			}
+			else if (nullptr != currentNode->Left) {
+				newNode = currentNode->Left;
+				parentNode->Left = newNode;
+			}
+			else {
+				parentNode->Left = nullptr;
+			}
+		}
+		// Right
+		else {
+			if (nullptr != currentNode->Right) {
+				newNode = currentNode->Right;
+				parentNode->Right = newNode;
+				newNode->Left = currentNode->Left;
+			}
+			else if (nullptr != currentNode->Left) {
+				newNode = currentNode->Left;
+				parentNode->Right = newNode;
+			}
+			else {
+				parentNode->Right = nullptr;
+			}
+		}
+		delete(currentNode);
+		return true;
 	}
 };
-

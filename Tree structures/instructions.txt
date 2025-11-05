@@ -1,0 +1,4 @@
+The image file "manual tasks" contains the drawings for manual tasks 7.1. and 7.2.
+The cpp file "TreeTasks" activates the functions for programming tasks.
+The header files Node and BST are used in both of the programming tasks. The cpp files of BST and Node are there for formality's sake.
+BST contains all of the functions needed in the tasks. Node contains the information on each node.
