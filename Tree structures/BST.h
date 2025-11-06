@@ -129,6 +129,9 @@ public:
 		// Now it's deletion time
 		
 		Node* newNode;
+		/*if (nullptr == parentNode) {
+
+		}*/
 		// Left
 		if (currentNode->Data < parentNode->Data) {
 			if (nullptr != currentNode->Right) {

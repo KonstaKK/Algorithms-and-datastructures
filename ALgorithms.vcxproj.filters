@@ -15,21 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Tree structures\TreeTasks.cpp">
+    <ClCompile Include="Heap\HeapTasks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tree structures\BST.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Tree structures\Node.cpp">
+    <ClCompile Include="Heap\Heap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Tree structures\BST.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Tree structures\Node.h">
+    <ClInclude Include="Heap\Heap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
