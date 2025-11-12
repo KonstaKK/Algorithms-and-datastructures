@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Tree structures\\TreeTasks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:Tree structures\\TreeTasks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Heap\\HeapTasks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:Heap\\HeapTasks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Tree structures\\BST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:Tree structures\\BST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Analysis\\analysis.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ATDs\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Heap\\Heap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:Heap\\Heap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Tree structures\\BST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:Tree structures\\BST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Stack\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Stack\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Tree structures\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:Tree structures\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Heap\\Heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3F3859E-2700-4BB6-806A-68FB209E330B}|ALgorithms.vcxproj|solutionrelative:Heap\\Heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LinkedList.cpp",
-              "DocumentMoniker": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.cpp",
-              "RelativeDocumentMoniker": "ATDs\\LinkedList.cpp",
-              "ToolTip": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\ATDs\\LinkedList.cpp",
-              "RelativeToolTip": "ATDs\\LinkedList.cpp",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-05T13:51:49.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Stack.h",
-              "DocumentMoniker": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Stack\\Stack.h",
-              "RelativeDocumentMoniker": "Stack\\Stack.h",
-              "ToolTip": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Stack\\Stack.h",
-              "RelativeToolTip": "Stack\\Stack.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-05T11:55:51.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Node.h",
-              "DocumentMoniker": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Tree structures\\Node.h",
-              "RelativeDocumentMoniker": "Tree structures\\Node.h",
-              "ToolTip": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Tree structures\\Node.h",
-              "RelativeToolTip": "Tree structures\\Node.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-05T11:19:08.617Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BST.h",
-              "DocumentMoniker": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Tree structures\\BST.h",
-              "RelativeDocumentMoniker": "Tree structures\\BST.h",
-              "ToolTip": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Tree structures\\BST.h",
-              "RelativeToolTip": "Tree structures\\BST.h",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAnwIIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-30T08:57:44.971Z",
+              "Title": "analysis.cpp",
+              "DocumentMoniker": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp",
+              "RelativeDocumentMoniker": "Analysis\\analysis.cpp",
+              "ToolTip": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Analysis\\analysis.cpp",
+              "RelativeToolTip": "Analysis\\analysis.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-12T12:09:14.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Heap.cpp",
+              "DocumentMoniker": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Heap\\Heap.cpp",
+              "RelativeDocumentMoniker": "Heap\\Heap.cpp",
+              "ToolTip": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Heap\\Heap.cpp",
+              "RelativeToolTip": "Heap\\Heap.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAADwv1sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-06T09:42:41.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BST.cpp",
-              "DocumentMoniker": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Tree structures\\BST.cpp",
-              "RelativeDocumentMoniker": "Tree structures\\BST.cpp",
-              "ToolTip": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Tree structures\\BST.cpp",
-              "RelativeToolTip": "Tree structures\\BST.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-05T11:09:18.448Z"
+              "Title": "Heap.h",
+              "DocumentMoniker": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Heap\\Heap.h",
+              "RelativeDocumentMoniker": "Heap\\Heap.h",
+              "ToolTip": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Heap\\Heap.h",
+              "RelativeToolTip": "Heap\\Heap.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-06T09:42:36.581Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TreeTasks.cpp",
-              "DocumentMoniker": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Tree structures\\TreeTasks.cpp",
-              "RelativeDocumentMoniker": "Tree structures\\TreeTasks.cpp",
-              "ToolTip": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Tree structures\\TreeTasks.cpp",
-              "RelativeToolTip": "Tree structures\\TreeTasks.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAD4AAAAbAAAAAAAAAA==",
+              "Title": "HeapTasks.cpp",
+              "DocumentMoniker": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Heap\\HeapTasks.cpp",
+              "RelativeDocumentMoniker": "Heap\\HeapTasks.cpp",
+              "ToolTip": "C:\\Users\\Kona\\Documents\\GitHub\\Algorithms-and-datastructures\\Heap\\HeapTasks.cpp",
+              "RelativeToolTip": "Heap\\HeapTasks.cpp",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAD0AAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-30T08:42:11.236Z",
+              "WhenOpened": "2025-11-06T09:40:29.207Z",
               "EditorCaption": ""
             }
           ]
