@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Heap\Heap.cpp" />
-    <ClCompile Include="Heap\HeapTasks.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Heap\Heap.h" />
+    <ClCompile Include="Sorting 1\SortingTasks.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
