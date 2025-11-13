@@ -3,7 +3,7 @@
 
 int main() {
 
-	// task 7.1.
+	// task 8.1.
 	// 17, 11, 6, 14, 22, 8, 1, 16, 10, 19, 12, 3, 5, 15, 13
 	Heap myHeap;
 
@@ -29,7 +29,7 @@ int main() {
 
 	myHeap.delMin();
 
-	// task 7.2.
+	// task 8.2.
 	Heap heap100k;
 	Heap heap1mil;
 	Heap heap10mil;
