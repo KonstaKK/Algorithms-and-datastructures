@@ -1,4 +1,41 @@
-﻿  Heap.cpp
-  HeapTasks.cpp
-  Generating Code...
-  ALgorithms.vcxproj -> C:\Users\konsta.karttunen\Documents\GitHub\Algorithms-and-datastructures\x64\Debug\ALgorithms.exe
+﻿  SortingTasks.cpp
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(36,20): warning C4244: '=': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(36,20): warning C4244:         with
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(36,20): warning C4244:         [
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(36,20): warning C4244:             _Ty=int
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(36,20): warning C4244:         ]
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(39,21): warning C4244: '=': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(39,21): warning C4244:         with
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(39,21): warning C4244:         [
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(39,21): warning C4244:             _Ty=int
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(39,21): warning C4244:         ]
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(45,14): warning C4244: '=': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(45,14): warning C4244:         with
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(45,14): warning C4244:         [
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(45,14): warning C4244:             _Ty=int
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(45,14): warning C4244:         ]
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(49,14): warning C4244: '=': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(49,14): warning C4244:         with
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(49,14): warning C4244:         [
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(49,14): warning C4244:             _Ty=int
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(49,14): warning C4244:         ]
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(56,13): warning C4244: '=': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(56,13): warning C4244:         with
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(56,13): warning C4244:         [
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(56,13): warning C4244:             _Ty=int
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(56,13): warning C4244:         ]
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(62,13): warning C4244: '=': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(62,13): warning C4244:         with
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(62,13): warning C4244:         [
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(62,13): warning C4244:             _Ty=int
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(62,13): warning C4244:         ]
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(167,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(168,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(169,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(179,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(180,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(181,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(191,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(192,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\Sorting 1\SortingTasks.cpp(193,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  ALgorithms.vcxproj -> C:\Users\Kona\Documents\GitHub\Algorithms-and-datastructures\x64\Debug\ALgorithms.exe

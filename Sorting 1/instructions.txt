@@ -1,0 +1,2 @@
+The text file "manual tasks" contains the writings for manual tasks 9.1. and 9.2.
+The cpp file "SortingTasks" has all the functions in the programming staks.
