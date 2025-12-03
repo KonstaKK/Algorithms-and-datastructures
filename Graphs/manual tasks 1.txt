@@ -1,0 +1,12 @@
+10.1.
+
+a) Königsberg bridges problem
+1) Returning to the start point = no
+2) Not returning to the start point = no
+
+b) Unless you swim to the other bridges, the problem is unsolvable
+
+10.2.
+(C,H) (B,C) (F,A) (G,E) (E,H) (I,L) (A,D) (D,B) (K,L) (H,M) (A,K) (K,I) (B,E) (I,J) (M,C) (H,J) (F,G) (G,I) (M,J) (G,J)
+
+a)
