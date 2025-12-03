@@ -10,3 +10,26 @@ b) Unless you swim to the other bridges, the problem is unsolvable
 (C,H) (B,C) (F,A) (G,E) (E,H) (I,L) (A,D) (D,B) (K,L) (H,M) (A,K) (K,I) (B,E) (I,J) (M,C) (H,J) (F,G) (G,I) (M,J) (G,J)
 
 a)
+
+10.3.
+
+Start at D
+
+A: F B
+B: A D
+C: E H
+D: E B G
+E: C H D
+F: A K G
+G: D F J I
+H: E C M
+I: K G
+J: G M
+K: F M I
+L: M
+M: K L J H
+
+D
+  E B G
+    B G
+	  G
