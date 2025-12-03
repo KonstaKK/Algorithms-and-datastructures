@@ -3,18 +3,13 @@
 a[] = [9, 2, 6, 5, 7, 1].
 
 Inversions:
-(9, 2)
-(9, 6)
-(9, 5)
-(9, 7)
-(9, 1)
-(6, 5)
-(6, 1)
+(9, 2) (9, 6) (9, 5) (9, 7) (9, 1)
+(2, 1)
+(6, 5) (6, 1)
 (5, 1)
-(7, 5)
 (7, 1)
 
 
 9.2.
-a) At leats 1 inversion is removed
-b) At most 4 inversions are removed
+a) At least 1 inversion is removed
+b) At most 5 inversions are removed
