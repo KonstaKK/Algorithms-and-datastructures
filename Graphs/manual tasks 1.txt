@@ -73,6 +73,18 @@ L: M
 M: K L J H
 
 D
+D, E
+D, E, B
+D, E, B, G
+D, E, B, G, C
+D, E, B, G, C, H
+D, E, B, G, C, H, A
+D, E, B, G, C, H, A, F
+D, E, B, G, C, H, A, F, J
+D, E, B, G, C, H, A, F, J, I
+D, E, B, G, C, H, A, F, J, I, K
+
+D
   E B G
     B G C H
       G C H A
@@ -83,3 +95,5 @@ D
                 J I M K
                   I M K
                     M K
+                      K L
+                        L
