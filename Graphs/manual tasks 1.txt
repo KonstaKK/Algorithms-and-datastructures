@@ -4,12 +4,55 @@ a) Königsberg bridges problem
 1) Returning to the start point = no
 2) Not returning to the start point = no
 
-b) Unless you swim to the other bridges, the problem is unsolvable
+b) (Unless you swim to the other bridges, the problem is unsolvable)
+On a lake = yes
 
 10.2.
 (C,H) (B,C) (F,A) (G,E) (E,H) (I,L) (A,D) (D,B) (K,L) (H,M) (A,K) (K,I) (B,E) (I,J) (M,C) (H,J) (F,G) (G,I) (M,J) (G,J)
 
 a)
+
+From	To
+C	H
+B	E, C
+F	G, A
+G	J, I, E
+E	H
+I	J, L
+A	K, D
+D	B
+K	I, L
+H	J, M
+M	J, C
+
+Duplicates
+(A	K)
+(K	I)
+(B	E)
+(I	J)
+(H	J)
+(F	G)
+(G	J, I)
+(M	J)
+(G	J)
+
+C: H
+B: E, C
+F: G, A
+G: J, I, E
+E: H
+I: J, L
+A: K, D
+D: B
+K: I, L
+H: J, M
+M: J, C
+J
+L
+N
+
+b) Not strongly connected; J, L and N don't connect to anything
+Is weakly connected; most of the nodes are connected
 
 10.3.
 
@@ -31,5 +74,12 @@ M: K L J H
 
 D
   E B G
-    B G
-	  G
+    B G C H
+      G C H A
+        C H A F J I
+          H A F J I
+            A F J I M
+              F J I M
+                J I M K
+                  I M K
+                    M K
