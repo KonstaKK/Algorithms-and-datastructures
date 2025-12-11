@@ -459,6 +459,28 @@ MonoBehaviour:
   Width: 20
   Height: 20
   Spacing: 1.1
+  StartPos: {x: 1, y: 2}
+  TargetPos: {x: 19, y: 17}
+  ObstaclePos:
+  - {x: 15, y: 13}
+  - {x: 1, y: 11}
+  - {x: 2, y: 11}
+  - {x: 3, y: 11}
+  - {x: 4, y: 11}
+  - {x: 5, y: 11}
+  - {x: 6, y: 11}
+  - {x: 7, y: 11}
+  - {x: 8, y: 11}
+  - {x: 9, y: 11}
+  - {x: 10, y: 11}
+  - {x: 11, y: 11}
+  - {x: 12, y: 11}
+  - {x: 13, y: 11}
+  - {x: 16, y: 13}
+  - {x: 17, y: 13}
+  - {x: 18, y: 13}
+  - {x: 19, y: 13}
+  - {x: 20, y: 13}
 --- !u!4 &1641093357
 Transform:
   m_ObjectHideFlags: 0
