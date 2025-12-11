@@ -20,6 +20,15 @@ public class Pathfinder : MonoBehaviour
                 Instantiate(Tile, new Vector3(x * Spacing - Width / 2 * Spacing, y * Spacing - Height / 2 * Spacing, 0), Tile.transform.rotation);
             }
         }
+
+        if (Height < Width)
+        {
+            Camera.main.transform.position = new Vector3(0, 0, -Width * Spacing);
+        }
+        else
+        {
+            Camera.main.transform.position = new Vector3(0, 0, -Height * Spacing);
+        }
     }
 
     // Update is called once per frame
