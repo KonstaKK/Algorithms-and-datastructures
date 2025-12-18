@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4487993473816518844}
   - component: {fileID: 4479466357258069383}
   - component: {fileID: 6192129520005270012}
-  - component: {fileID: 7442704623827291201}
+  - component: {fileID: 1121728767955908808}
   m_Layer: 0
   m_Name: Tile
   m_TagString: Untagged
@@ -108,7 +108,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &7442704623827291201
+--- !u!114 &1121728767955908808
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,10 +117,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6021460125182934016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 196e3da7078e17548b337f3187b42b52, type: 3}
+  m_Script: {fileID: 11500000, guid: 76dc64e08d559c64b8a3dc5ef6bb8170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cost: -1
+  IsWalkable: 1
   Pos: {x: -1, y: -1}
   Origin: {x: -1, y: -1}
   isDirty: 1

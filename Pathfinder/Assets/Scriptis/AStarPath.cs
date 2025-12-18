@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class Pathfinder : MonoBehaviour
+public class AStarPath : MonoBehaviour
 {
     public GameObject Tile;
 
@@ -20,10 +20,10 @@ public class Pathfinder : MonoBehaviour
     public List<Vector2Int> ObstaclePos = new List<Vector2Int>();
 
     // Unvisited list of slabs
-    private List<CustomSlab> unvisitedSlabs = new List<CustomSlab>();
+    private List<AStarSlab> unvisitedSlabs = new List<AStarSlab>();
 
     // Visited list of slabs
-    private List<CustomSlab> visitedSlabs = new List<CustomSlab>();
+    private List<AStarSlab> visitedSlabs = new List<AStarSlab>();
 
     private bool bStart = true;
 
@@ -35,9 +35,10 @@ public class Pathfinder : MonoBehaviour
             for (int x = 0; x < Width; x++)
             {
                 GameObject obj = Instantiate(Tile, new Vector3(x * Spacing, y * Spacing, 0), Tile.transform.rotation);
-                CustomSlab slab = obj.GetComponent<CustomSlab>();
-                slab.SetCost(int.MaxValue);
+                AStarSlab slab = obj.GetComponent<AStarSlab>();
                 slab.Pos = new Vector2Int(x + 1, y + 1);
+                slab.ComputeHCost(TargetPos);
+                slab.SetGCost(int.MaxValue);
 
                 foreach (Vector2Int pos in ObstaclePos)
                 {
@@ -50,7 +51,7 @@ public class Pathfinder : MonoBehaviour
 
                 if (slab.Pos == StartPos)
                 {
-                    slab.SetCost(0);
+                    slab.SetGCost(0);
                 }
 
                 if (slab.IsWalkable)
@@ -69,7 +70,7 @@ public class Pathfinder : MonoBehaviour
         if (bStart)
         {
             // Set colors and costs
-            foreach (CustomSlab slab in unvisitedSlabs)
+            foreach (AStarSlab slab in unvisitedSlabs)
             {
                 if (slab.Pos == StartPos)
                 {
@@ -80,18 +81,18 @@ public class Pathfinder : MonoBehaviour
                     slab.SetColor(Color.red);
                 }
             }
-            //Dijkstra();
+            //AStar();
             //TraceRoute();
-            StartCoroutine(DoDjikstra());
+            StartCoroutine(DoASTar());
             bStart = false;
         }
     }
 
-    IEnumerator DoDjikstra()
+    IEnumerator DoASTar()
     {
         while (unvisitedSlabs.Count > 0)
         {
-            if (StepDjikstra().Pos == TargetPos && !GetAll)
+            if (StepAStar().Pos == TargetPos && !GetAll)
             {
                 break;
             }
@@ -100,10 +101,10 @@ public class Pathfinder : MonoBehaviour
         TraceRoute(Color.gray);
     }
 
-    private CustomSlab StepDjikstra()
+    private AStarSlab StepAStar()
     {
-        int minCost = unvisitedSlabs.Min(slab => slab.GetCost());
-        CustomSlab currentTile = unvisitedSlabs.Find(slab => slab.GetCost() == minCost);
+        int minCost = unvisitedSlabs.Min(slab => slab.GetFCost());
+        AStarSlab currentTile = unvisitedSlabs.Find(slab => slab.GetFCost() == minCost);
         //CustomSlab currentTile = unvisitedSlabs.Find(s => s.Pos == StartPos);
         unvisitedSlabs.Remove(currentTile);
 
@@ -122,7 +123,7 @@ public class Pathfinder : MonoBehaviour
                     continue;
                 }
 
-                CustomSlab neighbor = unvisitedSlabs.Find(tile => tile.Pos == neighborPos);
+                AStarSlab neighbor = unvisitedSlabs.Find(tile => tile.Pos == neighborPos);
                 if (neighbor == null)
                 {
                     continue;
@@ -138,11 +139,11 @@ public class Pathfinder : MonoBehaviour
                 delta.y = Mathf.Abs(delta.y);
                 int moveCost = (delta.x + delta.y == 1) ? 10 : 14;
 
-                int costToNeighbor = currentTile.GetCost() + moveCost;
+                int costToNeighbor = currentTile.GetGCost() + moveCost;
 
-                if (costToNeighbor < neighbor.GetCost())
+                if (costToNeighbor < neighbor.GetGCost())
                 {
-                    neighbor.SetCost(costToNeighbor);
+                    neighbor.SetGCost(costToNeighbor);
                     neighbor.Origin = currentTile.Pos;
                 }
             }
@@ -157,7 +158,7 @@ public class Pathfinder : MonoBehaviour
         return currentTile;
     }
 
-    private void Dijkstra()
+    private void AStar()
     {
         // While unvisited list is not empty
         // -Select the tile with the lowest cost
@@ -167,8 +168,8 @@ public class Pathfinder : MonoBehaviour
 
         while (unvisitedSlabs.Count > 0)
         {
-            int minCost = unvisitedSlabs.Min(slab => slab.GetCost());
-            CustomSlab currentTile = unvisitedSlabs.Find(slab => slab.GetCost() == minCost);
+            int minCost = unvisitedSlabs.Min(slab => slab.GetFCost());
+            AStarSlab currentTile = unvisitedSlabs.Find(slab => slab.GetFCost() == minCost);
             //CustomSlab currentTile = unvisitedSlabs.Find(s => s.Pos == StartPos);
             unvisitedSlabs.Remove(currentTile);
 
@@ -187,7 +188,7 @@ public class Pathfinder : MonoBehaviour
                         continue;
                     }
 
-                    CustomSlab neighbor = unvisitedSlabs.Find(tile => tile.Pos == neighborPos);
+                    AStarSlab neighbor = unvisitedSlabs.Find(tile => tile.Pos == neighborPos);
                     if (neighbor == null)
                     {
                         continue;
@@ -198,11 +199,11 @@ public class Pathfinder : MonoBehaviour
                     delta.y = Mathf.Abs(delta.y);
                     int moveCost = (delta.x + delta.y == 1) ? 10 : 14;
 
-                    int costToNeighbor = currentTile.GetCost() + moveCost;
+                    int costToNeighbor = currentTile.GetFCost() + moveCost;
 
-                    if (costToNeighbor < neighbor.GetCost())
+                    if (costToNeighbor < neighbor.GetFCost())
                     {
-                        neighbor.SetCost(costToNeighbor);
+                        neighbor.SetGCost(costToNeighbor);
                         neighbor.Origin = currentTile.Pos;
                     }
                 }
@@ -214,7 +215,7 @@ public class Pathfinder : MonoBehaviour
 
     private void TraceRoute(Color color)
     {
-        CustomSlab slab = visitedSlabs.Find(s => s.Pos == TargetPos);
+        AStarSlab slab = visitedSlabs.Find(s => s.Pos == TargetPos);
         if (slab == null)
         {
             return;

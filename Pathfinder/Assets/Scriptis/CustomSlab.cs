@@ -44,7 +44,7 @@ public class CustomSlab : MonoBehaviour
             }
             else
             {
-                myTMP.SetText(cost.ToString());
+                myTMP.SetText(cost.ToString("000"));
             }
 
             if (!IsWalkable)
